@@ -183,6 +183,8 @@ img {
 /* Mobile */
 
 @media(max-width: 768px){
+
+  
   .navbar {
     flex-direction: column;
     height: 120px;
@@ -197,15 +199,21 @@ img {
   .flex-items {
     flex-direction: column;
   }
+  
   .flex-columns .column {
+    /* display: flex;
+    flex-direction: column;
+    flex-basis: 100%; */
+    /* flex: 1;  */
     flex: 100%;
     max-width: 100%;
   }
 
-  .flex-grid .column {
+  .flex-grid .column{
     flex: 100%;
-    max-width: 100%;
   }
+
+
 
 }
 

@@ -77,7 +77,7 @@
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
-  flex: 1;
+  flex: 1; 
 }
 
 .flex-columns .column .column-1,
@@ -139,6 +139,9 @@
 
 .flex-grid .column {
   flex: 25%;
-  max-width: 25%;
   padding: 0 4px;
+}
+
+.team img {
+  border-radius: 50%;
 }
